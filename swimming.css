@@ -1,9 +1,15 @@
+*{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 h1 {
     text-align: center;
 
 }
 
-div.map{
+.map{
     text-align:center;
 
 }
@@ -16,16 +22,6 @@ img:hover {
   width: 500px;
   height: 200px;
 }
-
-* {
-    box-sizing: border-box;
-  }
-  
-body {
-
-    padding: 20px;
-    
-  }
   
   .main {
     max-width: 1000px;
