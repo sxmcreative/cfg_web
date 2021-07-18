@@ -1,0 +1,81 @@
+h1 {
+    text-align: center;
+
+}
+
+div.map{
+    text-align:center;
+
+}
+
+.text-map{
+    text-align:center
+}
+
+img:hover {
+  width: 500px;
+  height: 200px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+
+    padding: 20px;
+    
+  }
+  
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .row, .row2 {
+    margin: 8px -16px;
+  }
+  
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  .row2,
+  .row2 > .column2 {
+    padding: 8px;
+  }
+
+  
+  .column, .column2 {
+    float: left;
+    width: 25%;
+  }
+  
+  
+  .row, .row2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  .content, .content2 {
+    background-color: white;
+    padding: 10px;
+  }
+  
+ 
+  @media screen and (max-width: 900px) {
+    .column, .column2{
+      width: 100%;
+    }
+  }
+ 
+  @media screen and (max-width: 600px) {
+    .column, .column2 {
+      width: 100%;
+    }
+  }
+
+
+  
