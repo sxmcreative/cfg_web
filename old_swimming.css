@@ -1,11 +1,4 @@
-html {
-    font-family:'Times New Roman', Times, serif;
-    background-color: rgb(202, 230, 248);
-  }
-  
-  
-  
-  /*h1 {
+ /*h1 {
     color: rgb(252, 252, 252);
     text-align: center;
     display: flex;
@@ -18,12 +11,6 @@ html {
     background-color:darkblue;
     box-shadow: 10px 10px 5px #272525;
   }*/
-  
-  h1 {
-    color: rgb(0, 0, 0);
-    text-align: center;
-  
-  }
   
   div.map{
     text-align:center;
