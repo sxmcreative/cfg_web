@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <title>Hidden Waters</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <style>
@@ -24,7 +30,7 @@
       .swiper-container {
         width: 800px;
         height: 500px;
-        position: absolute;
+        position: relative;
         left: 20%;
         top: 10%;
         margin-left: -10px;
@@ -78,6 +84,34 @@
   </head>
 
   <body>
+    <nav>
+      <ul class="nav-links">
+          <li>
+              <a href="index.html">Home</a>
+          </li>
+          <li>
+              <a href="about.html">About</a>
+          </li>
+          <li>
+              <a href="swimming.html">Swimming Spots</a>
+          </li>
+      </ul>
+      <div class="logo">
+          <h4>Hidden Waters</h4>
+      </div>
+      <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+      </div>
+
+  </nav>
+    <h1>Wild Swimming</h1>
+    <div class="textHero">
+      <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste ab nisi enim labore non odit magni aperiam dolore error consequuntur animi eligendi accusamus iure, numquam delectus, voluptates pariatur eveniet. Aut.</h3>
+    </div>
+
+
     <div class="swiper-container mySwiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide"><img src="./images/Sunset in Port Meadow Oxford.jpg" alt="Port Meadow">
@@ -121,5 +155,11 @@
         },
       });
     </script>
+
+    <!-- Footer Section -->
+   
+        
+    <script src="index.js"></script>
+
   </body>
 </html>
