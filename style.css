@@ -1,0 +1,50 @@
+*{
+    margin:0px;
+    padding: 0px;
+  }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(229, 233, 235);
+}
+
+.swimming-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 35px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+image {
+    cursor: pointer;
+}
+
+#zoomIn img{
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+  }
+
+#zoomIn:hover img{
+    transform: scale(1.05);
+  }
+
+.galleryh3 {
+    padding: 30px;
+}
+
+.map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.text-map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
