@@ -1,52 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hidden Waters</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
-    <script src="./index.js">
-    </script>
-    <title>Hidden Water</title>
-</head>
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
 
-<body>
+      .swiper-container {
+        width: 800px;
+        height: 500px;
+        position: absolute;
+        left: 20%;
+        top: 10%;
+        margin-left: -10px;
+        margin-top: -10px;
+      }
 
-    <div class="carousel-sliders">
-        <div class="carousel-sliders-inner">
-          <div class="slide active">
-            <img src="./images/39176985975_0fb00bc786_b.jpg" alt="Forty Foot">
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .carousel-caption {
+        position: absolute;
+        right: 0;
+        bottom: 5px;
+        left: 0;
+        z-index: 10;
+        padding: 20px;
+        color: #fff;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.4);
+      }
+
+      .h3 {
+        margin-top: 0;
+        margin-bottom: 0;
+        transform: translate(-100%, 0);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="swiper-container mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="./images/Sunset in Port Meadow Oxford.jpg" alt="Port Meadow">
             <div class="carousel-caption">
-              <h3>Forty Foot</h3>
+                <h3>Port Meadow</h3>
             </div>
-          </div>
-          <div class="slide">
-            <img src="./images/Llyn-Cau-tatler-27oct14_alamy_b.jpg" alt="Llyn Cau">
-            <div class="carousel-caption">
-              <h3>Llyn Cau</h3>
-            </div>
-          </div>
-          <div class="slide">
-            <img src="./images/Sunset in Port Meadow Oxford.jpg" alt="Port Meadow">
-            <div class="carousel-caption">
-              <h3>Port Meadow</h3>
-            </div>
-          </div>
-        </div> 
-        <div class="carousel-controls left">
-          <div tabindex="0" class="prevSlide" role="button">
-            <span class="prevIcon"></span>
-            <span class="sr-only"></span>
-          </div> 
         </div>
-        <div class="carousel-controls right">    
-          <div tabindex="0" class="nextSlide" role="button">
-            <span class="nextIcon"></span>
-            <span class="sr-only"></span>
-          </div>
-        </div>                     
+        <div class="swiper-slide"><img src="./images/Llyn-Cau-tatler-27oct14_alamy_b.jpg" alt="Llyn Cau">
+            <div class="carousel-caption">
+                <h3>Llyn Cau</h3>
+            </div>
+        </div>
+        <div class="swiper-slide"><img src="./images/39176985975_0fb00bc786_b.jpg" alt="Forty Foot">
+            <div class="carousel-caption">
+                <h3>Forty Foot</h3>
+            </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
 
-</body>
-
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "cube",
+        grabCursor: true,
+        cubeEffect: {
+          shadow: true,
+          slideShadows: true,
+          shadowOffset: 20,
+          shadowScale: 0.94,
+        },
+        loop: true,
+        loopFillGroupWithBlank: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+  </body>
 </html>
