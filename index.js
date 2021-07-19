@@ -24,7 +24,7 @@ const navSlide = () => {
 
 navSlide();
 
-//carrousel animation
+    //carrousel animation
 
 var swiper = new Swiper(".mySwiper", {
     effect: "cube",

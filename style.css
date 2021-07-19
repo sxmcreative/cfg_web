@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: rgb(229, 233, 235);
+    background-color: #eee;
 }
 
 .swimming-gallery {
@@ -38,7 +38,6 @@ image {
 }
 
 .map-container {
-    position: relative;
     height: 650px;
     align-items: center;
     justify-content: center;
@@ -50,3 +49,8 @@ image {
     justify-content: center;
 }
 
+.separation {
+    display: flex;
+    height: 15vh;
+    width: 100%;
+}
