@@ -33,12 +33,12 @@ image {
   }
 
 .galleryh3 {
-    padding: 30px;
-    font-weight: bold;
+    font-weight: bold !important;
 }
 
 .map-container {
     height: 650px;
+    display: grid;
     align-items: center;
     justify-content: center;
 }
@@ -47,6 +47,7 @@ image {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 18px;
 }
 
 .separation {
