@@ -121,5 +121,14 @@ a:hover{
     transform: rotate(45deg) translate(-5px,-6px);
 }
 
+.boardbox {
+    width: 400px;
+    background-color: white;
+    border: 15px solid rgb(255, 255, 255);
+    padding: 50px;
+    margin: 20px;
+    padding: 5px;
+    box-shadow: 4px 3px 4px 2px gray;
+}
 
 /* Footer */
