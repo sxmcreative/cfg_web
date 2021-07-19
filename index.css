@@ -19,6 +19,7 @@ nav {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 5px;
     z-index:1000; /*add z-index*/
+    margin-bottom: 45px;
 }
 
 .logo{
@@ -119,5 +120,6 @@ a:hover{
 .toggle .line3{
     transform: rotate(45deg) translate(-5px,-6px);
 }
+
 
 /* Footer */

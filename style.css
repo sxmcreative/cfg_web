@@ -34,13 +34,14 @@ image {
 
 .galleryh3 {
     padding: 30px;
+    font-weight: bold;
 }
 
-.map {
-    display: flex;
+.map-container {
+    position: relative;
+    height: 650px;
     align-items: center;
     justify-content: center;
-    padding: 25px;
 }
 
 .text-map {
@@ -48,3 +49,4 @@ image {
     align-items: center;
     justify-content: center;
 }
+
