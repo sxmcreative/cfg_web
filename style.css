@@ -54,3 +54,15 @@ image {
     height: 15vh;
     width: 100%;
 }
+
+.heroIndex {
+    padding 25px;
+    margin-top: 25px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: -35px;
+}
+
+.textHero{
+    margin-top:20px;
+}
